@@ -26,7 +26,7 @@ print(type(20 / 5)) # 4 --- 4.0
 
 
 
-print( 2 < 100 )
+print( 2 < 1 )
 print( 8 < 19 )
 print( 8 > 5 )
 print( 99 < 600 )
@@ -36,8 +36,6 @@ print( 3 < 19 )
 print( 8 > 5 )
 print( 9 < 96 )
 print( 9 > 6 )
-
-
 
 
 
