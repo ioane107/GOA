@@ -14,12 +14,22 @@ for i in range(20, -1, -1):
 
 
     #4
-    for i in range(1, 50,):
-        print(i)
+    sum = 0
+
+    for i in range(1, 51,):
+
+
+    sum += i
+
+
+print(sum)
 
         #5
-        for i in range(0, 12, 2):
-            print(i)
+ sum = 0
+ for i in range(0, 11,2):
+    sum += i
+
+    print(sum)
 
 #6
 
