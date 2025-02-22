@@ -1,10 +1,11 @@
-number = int(input("enter your Mark: "))
+score = int(input("Enter your number: "))
 
-if number == 100 or number == 90:
+if score >= 90:
     print("A")
-elif 90 > number >= 70:
+elif score < 90 and score > 70:
     print("B")
-elif 70 > number >= 50:
+elif score < 70 and score > 50:
     print("C")
-else: 
+else:
     print("D")
+
