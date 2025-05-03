@@ -1,0 +1,75 @@
+/*1) CSS-ის ფაილში კომენტარის სახით ახსენით თ რა უპირატესობა აქვს class-ების გამოყენებას.*/
+
+/* 
+1)ერთი და იგივე clas შეიძლება გამოყენებულ იქნას მრავალ ელემენტზ
+
+
+
+/*2) შექმენით ვებ-საიტი: დაამატეთ 4 ფოტო, 5 პარაგრაფი და 2 Heading-ი.
+
+ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის solid ბორდერი და ზომა: 150 x 150. 
+ხოლო დანარჩენ 2 ფოტოს მიანიჭეთ იასამნისფერი double ბორდერი და ზომა: 200 x 200. 
+
+საიტზე დამატებულ 3 პარაგრაფს მიეცით ლურჯი ფერი, 2-ს კი მწვანე ფერი. (ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.)
+
+ორივე Heading-ს მიეცით ლურჯი solid ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.
+
+(ამ დავალებების შესასრულებლად გამოიყენეთ class-ები. ელემენტები გასტილეთ Exrernal CSS-ში.) */
+
+.red-border {
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+}
+
+.purple-border {
+    border: 4px double rgb(88, 28, 88);
+    width: 200px;
+    height: 200px;
+}
+
+.small {
+    width: 150px;
+    height: 150px;
+}
+
+.large {
+    width: 200px;
+    height: 200px;
+}
+
+.images {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+.heading {
+    border: 2px solid blue;
+    color: purple;
+    text-align: center;
+}
+
+
+/*3) დაალაგეთ პრიორიტეტების მიხედვით:
+ID, Element, Class, Inline style */
+
+/*1 inline style */
+/* 2 id*/
+/*3 class*/
+/*44 lelement*/
+
+
+
+
