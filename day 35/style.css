@@ -1,0 +1,48 @@
+.orange{
+    border: 2px dotted blue;
+    color: purple;
+    text-align: center;
+}
+
+.blue {
+    text-align: center;
+}
+
+
+.blue {
+    color: skyblue;
+}
+
+.orange {
+    color: orange;
+}
+
+#img1, #img2 {
+    width: 200px;
+    height: 200px;
+    border: 4px double red;
+}
+
+#img3 {
+    width: 150px;
+    height: 150px;
+    border: 4px solid violet;
+}
+
+
+#btn1 {
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+#btn2 {
+    background-color: orange;
+    color: black;
+    border: 3px dashed purple;
+    padding: 8px 25px;
+    font-size: 14px;
+}

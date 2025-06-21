@@ -1,0 +1,58 @@
+<!--1) კომენტარის სახით ახსენით რას ეწოდება Inline, Internal და External Css. დაწერეთ თქვენ რომელს ანიჭებთ უპირატესობას და რატომ.
+inline - გამოვიყენებთ სტაილის საშვალებით და შეგვიძლია ერთი კონკრეტული ელემენტი გავსტილოთ
+<p style="color: red;">გოა</p>
+
+internal - გამოვიყენებთ ჰტმლ ფაილში  <ჰეად> სექციაში და სტაილ თეგში
+<head>
+  <style>
+    p { color: gren; }
+  </style>
+</head>
+
+external - იგი არის ცსს ის ფაილში და ვაკავშრებთ ჰტმლ ფაილებთან
+<link rel="stylesheet" href="goa.css">
+-->
+<!-- 2) შექმენით ვებ-საიტი: დაამატეთ 3 ფოტო, 5 პარაგრაფი, 2 Heading-ი და 2 ღილაკი.
+
+
+ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის double ბორდერი და ზომა: 200 x 200. 
+ხოლო დრჩენილ 1 ფოტოს მიანიჭეთ იასამნისფერი solid ბორდერი და ზომა: 150 x 150. 
+
+საიტზე დამატებულ 3 პარაგრაფს მიეცით ცისფერი ფერი, 2-ს კი ნარინჯისფერი ფერი.ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.
+
+ორივე Heading-ს მიეცით ლურჯი dotted ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.
+
+
+ღილაკები კი ინდივიდუალურად გასტილეთ. ამ ორ ღილაკს ჰქონდეს ერთმანეთისგან სხვადასხვა ფერი, ბორდერი და ზომა.
+
+(ამ დავალებების შესასრულებლად გამოიყენეთ id-ები და class-ები. ელემენტები გასტილეთ Exrernal CSS-ში.)-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>ჩემი ვებსაიტი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="my-heading">goa1</h1>
+    <h2 class="my-heading">goa2</h2>
+
+    <p class="blue">1</p>
+    <p class="blue">2</p>
+    <p class="blue">3</p>
+    <p class="orange">4</p>
+    <p class="orange">5</p>
+
+    <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD9mwulujAhwKfs0vZA5NgzkTmcJYNZYzkIQ&s" width="200">
+    <img id="img2" src="https://cdn.pixabay.com/photo/2024/07/13/07/40/cars-8891625_1280.jpg" width="200">
+    <img id="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzaza6RZif9EbWuM_ckYTt4natIUEGg8I-Sw&s" width="200">
+
+    <br><br>
+
+    <button id="btn1">goa 1</button>
+    <br>
+    <button id="btn2">goa 2</button>
+
+</body>
+</html>
